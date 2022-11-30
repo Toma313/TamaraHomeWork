@@ -8,7 +8,7 @@ public class Utils {
         BigDog bigDog = new BigDog("Pit");
         bigDog.greets();
         bigDog.greets(new BigDog("Arrr"));
-        cat.walk(new Cat("Black"));
+        cat.walk();
         Lion lion = new Lion("Leo");
         lion.hunting();
     }
